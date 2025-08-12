@@ -12,4 +12,3 @@ FROM alpine:latest
 RUN apk add --no-cache ca-certificates
 COPY --from=builder /nali /
 ENTRYPOINT ["/nali"]
-#127.0.0.1 root:root
